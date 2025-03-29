@@ -9,7 +9,7 @@ Ported from X11 to hyprcursor by xpe-online(me).
 ## Usage
 ```
 git clone https://github.com/xpe-online/Koishi-hyprcursor
-cp ./Koishi-hyprcursor ~/.local/share/icons
+cp -r ./Koishi-hyprcursor ~/.local/share/icons
 ```
 Then edit `~/.config/hypr/hyprland.conf`.
 
