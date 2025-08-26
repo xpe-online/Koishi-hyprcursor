@@ -11,7 +11,8 @@ Ported from X11 to hyprcursor by xpe-online(me).
 ```
 git clone https://github.com/xpe-online/Koishi-hyprcursor
 cd ./Koishi-hyprcursor
-cp -r ./Koishi-hyprcursor ~/.local/share/icons
+mkdir -p ~/.local/share/icons
+cp -r ./Koishi-hyprcursor ~/.local/share/icons/
 ```
 
 Then edit `~/.config/hypr/hyprland.conf`.
